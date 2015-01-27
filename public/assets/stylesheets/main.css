@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "comfortaa";
+  src: url("../fonts/comfortaa.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "cardenio";
+  src: url("../fonts/cardenio.ttf") format("truetype");
+}
+
+body{
+  font-family: "comfortaa" sans-serif;
+  font-size: 1.7vw;
+  background-color: #405952;
+  color: #f0f0f0;
+}
+
+.loading{
+  cursor: wait;
+}
+
+.hidden{
+  display: none;
+}
+
+.alt-font{
+  font-family: "cardenio" cursive san-serif;
+}
+
+.bottled-title{
+  margin: 0 0 1vw;
+  font-size: 15vw;
+  text-align: center;
+}
+
+.golden-width{
+  position: relative;
+  margin: 0 19%;
+}
+
+.toss-box{
+  height: 12vw;
+  width: 100%;
+  resize: none;
+  padding: 1vw;
+}
+
+.toss-button{
+  position: absolute;
+  right: 0;
+  bottom: -5vw;
+  height: 4vw;
+  display: block;
+  padding: 1vw 2vw;
+  border-radius: .5vw;
+}
+
+.light-background{
+  background-color: #f0f0f0;
+  border: .1vw solid #9C9B7A;
+  color: #405952;
+}
+
+.message{
+  position: fixed;
+  top: 3vw;
+  left: 19vw;
+  width: 62vw;
+  bottom: 3vw;
+  padding: 3vw 9.5vw;
+  z-index: 100;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.message-screen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(64, 89, 82, .8);
+  cursor: pointer;
+}
+
+.fancy-hr{
+  margin: 9vw 0 3vw;
+    padding: 0;
+    border: none;
+    border-top: .2vw double #f0f0f0;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.fancy-hr:after {
+    content: ". . .";
+    display: inline-block;
+    position: relative; 
+    top: -2.4vw;  
+    font-size: 3vw;
+    padding: 0 1vw;
+    background: #405952;
+}
+
+.about{
+  text-align: justify;
+  margin-bottom: 5vw;
+}
+
+.by-line{
+  text-align: right;
+  margin-top: 5vw;
+}
+
+.by-line a{
+  color: #f0f0f0;
+}
+
+.heart{
+  position: relative;
+  top: .2vw;
+  font-size: 3vw;
+  color: #FFD393;
+}
+
+@media only screen and (max-device-width: 700px){
+  body{
+    font-size: 6vw;
+  }
+
+  .golden-width{
+    margin: 0 6vw;
+  }
+
+  .bottled-title{
+    font-size: 30vw;
+    margin-bottom: 4vw;
+  }
+  
+  .toss-box{
+    height: 60vw;
+    font-size: 6vw;
+    padding: 4vw;
+  }
+
+  .toss-button{
+    font-size: 8vw;
+    bottom: -22vw;
+    height: 18vw;
+    padding: 1vw 10vw;
+    border-radius: 1.5vw;
+  }
+  
+  .message{
+    left: 4vw;
+    width: 92vw;
+    bottom: 10vw;
+  }
+
+  .fancy-hr{
+    margin: 35vw 0 8vw;
+    border-width: 1.2vw;
+  }
+
+  .fancy-hr:after{
+    font-size: 9vw;
+    width: 12vw;
+    top: -7.5vw;
+  }
+
+  .heart{
+    font-size: 8vw;
+  }
+}

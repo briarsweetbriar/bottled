@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/commoner/.nvm/v0.10.32/bin/node',
+1 verbose cli   '/home/commoner/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'grunt',
+1 verbose cli   'grunt-shipit' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 error Failed to parse json
+4 error Unexpected token }
+5 error File: /media/shared/code/bottled/backend/package.json
+6 error Failed to parse package.json data.
+6 error package.json must be actual JSON, not just JavaScript.
+6 error
+6 error This is not a bug in npm.
+6 error Tell the package author to fix their package.json file. JSON.parse
+7 error System Linux 3.13.0-44-generic
+8 error command "/home/commoner/.nvm/v0.10.32/bin/node" "/home/commoner/.nvm/v0.10.32/bin/npm" "install" "--save-dev" "grunt" "grunt-shipit"
+9 error cwd /media/shared/code/bottled/backend
+10 error node -v v0.10.32
+11 error npm -v 1.4.28
+12 error file /media/shared/code/bottled/backend/package.json
+13 error code EJSONPARSE
+14 verbose exit [ 1, true ]

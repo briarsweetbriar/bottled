@@ -1,0 +1,23 @@
+{
+  "name": "bottled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "routes": "^2.0.0",
+    "sockjs": "^0.3.12",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/null-null-null/bottled"
+  },
+  "author": "null",
+  "license": "ISC"
+}

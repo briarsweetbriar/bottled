@@ -1,0 +1,1 @@
+{"appurl":"bottled.cards","name":"bottled","start":"node index.js","port":"4001","path":"/var/www","nginx":"/etc/nginx/sites-enabled","url":"https://github.com/null-null-null/bottled.git","server":"deploy@104.131.228.131"}
