@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Chewy);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 @import url(http://fonts.googleapis.com/css?family=Comfortaa);
+
 body{
   font-family: "Comfortaa" sans-serif;
   font-size: 1.7vw;
@@ -16,13 +17,14 @@ body{
 }
 
 .alt-font{
-  font-family: 'Chewy', cursive;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .bottled-title{
-  margin: 0 0 1vw;
+  margin: 0;
   font-size: 15vw;
   text-align: center;
+  letter-spacing: .7vw;
 }
 
 .golden-width{
@@ -40,11 +42,12 @@ body{
 .toss-button{
   position: absolute;
   right: 0;
-  bottom: -5vw;
-  height: 4vw;
+  bottom: -8vw;
+  height: 6vw;
   display: block;
-  padding: 1vw 2vw;
+  padding: 0 2.5vw;
   border-radius: .5vw;
+  font-size: 2.5vw;
 }
 
 .light-background{
@@ -78,22 +81,12 @@ body{
 }
 
 .fancy-hr{
-  margin: 9vw 0 3vw;
-    padding: 0;
-    border: none;
-    border-top: .2vw double #f0f0f0;
-    color: #f0f0f0;
-    text-align: center;
-}
-
-.fancy-hr:after {
-    content: ". . .";
-    display: inline-block;
-    position: relative; 
-    top: -2.4vw;  
-    font-size: 3vw;
-    padding: 0 1vw;
-    background: #405952;
+  margin: 10.5vw 0 3vw;
+  padding: 0;
+  border: none;
+  border-top: .2vw double #f0f0f0;
+  color: #f0f0f0;
+  text-align: center;
 }
 
 .about{
@@ -103,7 +96,8 @@ body{
 
 .by-line{
   text-align: right;
-  margin-top: 5vw;
+  margin-top: 2vw;
+  font-size: 1.2vw;
 }
 
 .by-line a{
@@ -112,8 +106,8 @@ body{
 
 .heart{
   position: relative;
-  top: .2vw;
-  font-size: 3vw;
+  top: .1vw;
+  font-size: 2vw;
   color: #FFD393;
 }
 
@@ -130,7 +124,7 @@ body{
     font-size: 30vw;
     margin-bottom: 4vw;
   }
-  
+
   .toss-box{
     height: 60vw;
     font-size: 6vw;
@@ -144,7 +138,7 @@ body{
     padding: 1vw 10vw;
     border-radius: 1.5vw;
   }
-  
+
   .message{
     left: 4vw;
     width: 92vw;
@@ -156,10 +150,8 @@ body{
     border-width: 1.2vw;
   }
 
-  .fancy-hr:after{
-    font-size: 9vw;
-    width: 12vw;
-    top: -7.5vw;
+  .by-line{
+    font-size: 3vw;
   }
 
   .heart{
